@@ -754,9 +754,9 @@
 		</website>
 	</country>
 	<country code="+39">
-		<website name="paginebianche.it" url="http://www.paginebianche.it/execute.cgi?btt=1&amp;ts=106&amp;cb=8&amp;mr=10&amp;rk=&amp;om=&amp;qs=$NUMBER" prefix="0">
+		<website name="paginebianche.it" url="http://www.paginebianche.it/ricerca-da-numero?qs=$NUMBER" prefix="0">
 			<entry>
-				<name>class=&quot;org&quot;&gt;([^&lt;]*)&lt;</name>
+				<name>class=&quot;org fn&quot;&gt;&lt;h2 class=&quot;rgs&quot;&gt;&lt;a href=&quot;[^&quot;]+&quot; title=&quot;[^&quot;]+&quot;&gt;([^&lt;]*)&lt;</name>
 				<street>class=&quot;street-address&quot;>([^&lt;]*)&lt;</street>
 				<city>class=&quot;locality&quot;>([^&lt;]*)&lt;</city>
 				<zipcode>class=&quot;postal-code&quot;>([^&lt;]*)&lt;</zipcode>
